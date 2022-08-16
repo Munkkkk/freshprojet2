@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  outline: 0.5px solid orangered;
+}
+
+/* mise en page */
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #fff ;
+}
+
+
+
+/* header */
+.logo {
+  width: 100px;
+  position : absolute;
+}
+
+.nav_header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_header ul {
+  display: flex;
+  padding: 0;
+  margin: 30px;
+}
