@@ -1,0 +1,31 @@
+@media screen and (min-width: 728px) and (max-width: 992px) 
+{
+   .hebergement_populaire {
+      /* flex-direction: column; */
+      display: block;
+   }
+   
+   .hebergement {
+      width: 103%;
+   }
+   .plus_populaire {
+      width: 65%;
+      margin-top: 30px;
+      margin-left: 115px;
+   }
+
+
+   .textFilter {
+      margin-bottom: 15px;
+  }
+
+  .filter {
+      margin-bottom: 15px;
+  }
+
+  .title_house {
+   padding-top: 20px
+  }
+
+
+   }

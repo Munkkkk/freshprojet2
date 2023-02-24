@@ -1,0 +1,129 @@
+@media screen and (max-width: 728px)
+{
+
+    * {
+        box-sizing: border-box;
+        /* outline: 2px solid orange; */
+      }
+
+    header{
+        margin: unset;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container {
+      width: auto;
+    }
+
+    .logo {
+        margin: auto;
+        width: 100px;
+    }
+    
+    nav ul {
+      border-bottom: 2px solid #f2f2f2;
+      padding-bottom: 15px;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+
+    nav li a:hover{
+        color: #0065FC;
+        border-top: 0px solid #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 15px;
+      }
+
+    .search {
+      padding-top: 25px;
+    }
+    .searchButton{
+        display: none;
+    }
+
+    .searchzoom {
+        display: block;
+        width: 50px;
+        background-color: #0065FC;
+        border: none;
+        padding: 0;
+        border-radius: 15px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 17px;
+        cursor: pointer;
+        flex-shrink: 0;        
+    }
+
+    /* .textfilter {
+      margin-bottom: 15px;
+    } */
+
+    .space{
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .eco {
+      margin-right:10px;
+    }
+
+    .filter {
+      margin-left: 5px;
+      margin-top: 15px;
+    }
+
+   
+   
+    .bloc-card {
+        flex-direction: column;
+       }    
+    
+    .hebergement_populaire {
+        flex-direction: column-reverse;
+        display: flex;
+        background-color: #f2f2f2;
+        max-width: none;
+        width: auto;
+     }
+
+     .plus_populaire {
+        width: 100%;
+     }
+
+     .plus_populaire {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+     .hebergement {
+        width: 100%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 0;
+     }
+
+     .house_choice {
+        width: 100%;
+        border-radius: 15px;
+     }
+
+     .house_picture {
+        border-radius: 25px 25px 0 0;
+     }
+
+     .card-column {
+        width: 100%;
+     }
+
+     .activity-section img {
+        height: 100px;
+     }
+
+     .propos {
+      display: block;
+      height: auto;
+     }
+}
